@@ -3,12 +3,12 @@ package stack;
 public class Stack {
 
     /**
-     * Õ»¶¥Ö¸Õë
+     * æ ˆé¡¶æŒ‡é’ˆ
      */
     private Node top;
 
     /**
-     * ÈëÕ»
+     * å…¥æ ˆ
      * @param value
      */
     public void push(int value) {
@@ -23,7 +23,7 @@ public class Stack {
     }
 
     /**
-     * ³öÕ»
+     * å‡ºæ ˆ
      * @return
      */
     public int pop() {
@@ -37,8 +37,8 @@ public class Stack {
     }
 
     /**
-     * ´òÓ¡ËùÓĞÕ»ÄÚÔªËØ
-     * ÇĞ¼Ç£º²»ÄÜÖ±½ÓÊ¹ÓÃtopÖ¸Õë
+     * æ‰“å°æ‰€æœ‰æ ˆå†…å…ƒç´ 
+     * åˆ‡è®°ï¼šä¸èƒ½ç›´æ¥ä½¿ç”¨topæŒ‡é’ˆ
      */
     public void printAll() {
         Node p = top;
@@ -62,6 +62,9 @@ public class Stack {
     }
 
 
+    /**
+     * åŸºäºlinkedlistçš„æ ˆ
+     */
     public class Node {
         private int value;
         private Node next;
