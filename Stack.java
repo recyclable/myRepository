@@ -49,6 +49,9 @@ public class Stack {
         System.out.println();
     }
 
+    /**
+     * 倒序打印
+     */
     public void printAllReverse() {
         Stack s1 = new Stack();
 
